@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,31,0" name="de.thb.mps.tanni.Junit4_5.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:557e0a9c-c4ec-4f71-a83f-85bc810a0eba(de.thb.mps.tanni.Junit4_5.constraints)/6114418101093744870">
+    <file name="Test_Constraints.java">
+      <node id="6114418101093744870" at="20,29,21,28" concept="9" />
+      <node id="6114418101093746243" at="25,66,26,47" concept="9" />
+      <node id="6114418101093746243" at="29,38,30,18" concept="5" />
+      <node id="6114418101093746243" at="32,0,33,0" concept="7" trace="validatePropertyBreakingPoint" />
+      <node id="6114418101093746243" at="34,109,35,99" concept="4" />
+      <node id="6114418101093746243" at="36,53,37,75" concept="1" />
+      <node id="6114418101093746243" at="38,7,39,20" concept="5" />
+      <node id="6114418101093840216" at="41,85,42,67" concept="5" />
+      <node id="6114418101095038526" at="42,67,43,0" concept="6" />
+      <node id="6114418101093744870" at="47,84,48,119" concept="4" />
+      <node id="6114418101093746243" at="48,119,49,75" concept="1" />
+      <node id="6114418101093744870" at="49,75,50,22" concept="5" />
+      <node id="6114418101093744870" at="54,0,55,0" concept="7" trace="Test$an" />
+      <node id="6114418101093744870" at="58,0,59,0" concept="7" trace="description$g98V" />
+      <node id="6114418101093744870" at="20,0,23,0" concept="0" trace="Test_Constraints#()V" />
+      <node id="6114418101093746243" at="25,0,28,0" concept="0" trace="Description_Property#(Ljetbrains/mps/smodel/runtime/ConstraintsDescriptor;)V" />
+      <node id="6114418101093746243" at="35,99,38,7" concept="2" />
+      <node id="6114418101093746243" at="28,0,32,0" concept="3" trace="hasOwnValidator#()Z" />
+      <node id="6114418101093746243" at="41,0,45,0" concept="8" trace="staticValidateProperty#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="6114418101093744870" at="46,0,52,0" concept="3" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <node id="6114418101093746243" at="33,0,41,0" concept="3" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/Object;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Z" />
+      <scope id="6114418101093744870" at="20,29,21,28" />
+      <scope id="6114418101093746243" at="25,66,26,47" />
+      <scope id="6114418101093746243" at="29,38,30,18" />
+      <scope id="6114418101093746243" at="36,53,37,75" />
+      <scope id="6114418101093839480" at="41,85,43,0" />
+      <scope id="6114418101093744870" at="20,0,23,0" />
+      <scope id="6114418101093746243" at="25,0,28,0">
+        <var name="container" id="6114418101093746243" />
+      </scope>
+      <scope id="6114418101093744870" at="47,84,50,22">
+        <var name="properties" id="6114418101093744870" />
+      </scope>
+      <scope id="6114418101093746243" at="28,0,32,0" />
+      <scope id="6114418101093746243" at="41,0,45,0">
+        <var name="node" id="6114418101093746243" />
+        <var name="propertyValue" id="6114418101093746243" />
+      </scope>
+      <scope id="6114418101093746243" at="34,109,39,20">
+        <var name="result" id="6114418101093746243" />
+      </scope>
+      <scope id="6114418101093744870" at="46,0,52,0" />
+      <scope id="6114418101093746243" at="33,0,41,0">
+        <var name="checkingNodeContext" id="6114418101093746243" />
+        <var name="node" id="6114418101093746243" />
+        <var name="propertyValue" id="6114418101093746243" />
+      </scope>
+      <unit id="6114418101093744870" at="53,0,56,0" name="de.thb.mps.tanni.Junit4_5.constraints.Test_Constraints$CONCEPTS" />
+      <unit id="6114418101093744870" at="57,0,60,0" name="de.thb.mps.tanni.Junit4_5.constraints.Test_Constraints$PROPS" />
+      <unit id="6114418101093746243" at="24,0,46,0" name="de.thb.mps.tanni.Junit4_5.constraints.Test_Constraints$Description_Property" />
+      <unit id="6114418101093744870" at="19,0,61,0" name="de.thb.mps.tanni.Junit4_5.constraints.Test_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:557e0a9c-c4ec-4f71-a83f-85bc810a0eba(de.thb.mps.tanni.Junit4_5.constraints)/871645523977687853">
+    <file name="EqualAssert_Constraints.java">
+      <node id="871645523977687853" at="21,36,22,35" concept="9" />
+      <node id="871645523977687853" at="29,128,30,133" concept="4" />
+      <node id="871645523977687853" at="30,133,31,0" concept="6" />
+      <node id="871645523977687853" at="32,55,33,72" concept="1" />
+      <node id="871645523977687853" at="34,9,35,0" concept="6" />
+      <node id="871645523977687853" at="35,0,36,22" concept="5" />
+      <node id="871645523977758648" at="41,89,42,117" concept="5" />
+      <node id="871645523977758311" at="43,5,44,17" concept="5" />
+      <node id="871645523977687853" at="46,0,47,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="871645523977687853" at="49,0,50,0" concept="7" trace="EqualAssert$gT" />
+      <node id="871645523977687853" at="50,0,51,0" concept="7" trace="IntegerLiteral$73" />
+      <node id="871645523977687853" at="21,0,24,0" concept="0" trace="EqualAssert_Constraints#()V" />
+      <node id="871645523977687853" at="31,0,34,9" concept="2" />
+      <node id="871645523977741358" at="40,128,43,5" concept="2" />
+      <node id="871645523977687853" at="40,0,46,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="871645523977687853" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="871645523977687853" at="26,105,38,6" concept="5" />
+      <node id="871645523977687853" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="871645523977687853" at="21,36,22,35" />
+      <scope id="871645523977687853" at="32,55,33,72" />
+      <scope id="871645523977741360" at="41,89,42,117" />
+      <scope id="871645523977687853" at="21,0,24,0" />
+      <scope id="871645523977741335" at="40,128,44,17" />
+      <scope id="871645523977687853" at="40,0,46,0">
+        <var name="childConcept" id="871645523977687853" />
+        <var name="childNode" id="871645523977687853" />
+        <var name="link" id="871645523977687853" />
+        <var name="node" id="871645523977687853" />
+      </scope>
+      <scope id="871645523977687853" at="29,128,36,22">
+        <var name="result" id="871645523977687853" />
+      </scope>
+      <scope id="871645523977687853" at="28,0,38,0">
+        <var name="checkingNodeContext" id="871645523977687853" />
+        <var name="context" id="871645523977687853" />
+      </scope>
+      <scope id="871645523977687853" at="26,105,38,6" />
+      <scope id="871645523977687853" at="25,0,40,0" />
+      <unit id="871645523977687853" at="48,0,52,0" name="de.thb.mps.tanni.Junit4_5.constraints.EqualAssert_Constraints$CONCEPTS" />
+      <unit id="871645523977687853" at="27,15,38,5" name="de.thb.mps.tanni.Junit4_5.constraints.EqualAssert_Constraints$1" />
+      <unit id="871645523977687853" at="20,0,53,0" name="de.thb.mps.tanni.Junit4_5.constraints.EqualAssert_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

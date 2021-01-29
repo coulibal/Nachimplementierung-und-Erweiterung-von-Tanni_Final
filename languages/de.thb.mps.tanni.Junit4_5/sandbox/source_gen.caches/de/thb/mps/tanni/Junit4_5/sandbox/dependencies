@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="de.thb.mps.tanni.Junit4_5.sandbox.RechnerTest">
+    <classNode dependClassName="java.lang.Exception" />
+    <classNode dependClassName="org.junit.jupiter.api.Assertions" />
+    <classNode dependClassName="org.junit.jupiter.api.BeforeEach" />
+    <classNode dependClassName="org.junit.jupiter.api.DisplayName" />
+    <classNode dependClassName="org.junit.jupiter.api.Test" />
+    <classNode dependClassName="rob.testproject.Rechner" />
+  </dependency>
+</dependenciesRoot>
+

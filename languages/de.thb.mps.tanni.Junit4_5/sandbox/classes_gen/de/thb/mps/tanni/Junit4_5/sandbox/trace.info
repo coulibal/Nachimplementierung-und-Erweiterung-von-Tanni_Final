@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <root nodeRef="r:51947e8e-690b-4414-82d7-5cf9dd28c6b0(de.thb.mps.tanni.Junit4_5.sandbox)/4301326094471184439">
+    <file name="RechnerTest.java">
+      <node id="4301326094471184439" at="13,0,14,0" concept="1" trace="underTest" />
+      <node id="4301326094471184439" at="17,40,18,30" concept="0" />
+      <node id="4301326094471184440" at="23,30,24,30" concept="3" />
+      <node id="4301326094471184440" at="24,30,25,42" concept="3" />
+      <node id="4301326094471184440" at="25,42,26,55" concept="0" />
+      <node id="4301326094471184484" at="30,35,31,30" concept="3" />
+      <node id="4301326094471184484" at="31,30,32,47" concept="3" />
+      <node id="4301326094471184484" at="32,47,33,55" concept="0" />
+      <node id="4301326094471184532" at="37,36,38,31" concept="3" />
+      <node id="4301326094471184532" at="38,31,39,48" concept="3" />
+      <node id="4301326094471184532" at="39,48,40,55" concept="0" />
+      <node id="5753621687775830406" at="44,32,45,30" concept="3" />
+      <node id="5753621687775830406" at="45,30,46,44" concept="3" />
+      <node id="5753621687775830406" at="46,44,47,55" concept="0" />
+      <node id="4301326094471184439" at="16,0,20,0" concept="2" trace="setUp#()V" />
+      <node id="4301326094471184440" at="21,0,28,0" concept="2" trace="addierenTest#()V" />
+      <node id="4301326094471184484" at="28,0,35,0" concept="2" trace="substrahierenTest#()V" />
+      <node id="4301326094471184532" at="35,0,42,0" concept="2" trace="multiplizierenTest#()V" />
+      <node id="5753621687775830406" at="42,0,49,0" concept="2" trace="dividierenTest#()V" />
+      <scope id="4301326094471184439" at="17,40,18,30" />
+      <scope id="4301326094471184440" at="23,30,26,55">
+        <var name="expected_result_a" id="4301326094471184440" />
+        <var name="result" id="4301326094471184440" />
+      </scope>
+      <scope id="4301326094471184484" at="30,35,33,55">
+        <var name="expected_result_b" id="4301326094471184484" />
+        <var name="result" id="4301326094471184484" />
+      </scope>
+      <scope id="4301326094471184532" at="37,36,40,55">
+        <var name="expected_result_c" id="4301326094471184532" />
+        <var name="result" id="4301326094471184532" />
+      </scope>
+      <scope id="5753621687775830406" at="44,32,47,55">
+        <var name="expected_result_d" id="5753621687775830406" />
+        <var name="result" id="5753621687775830406" />
+      </scope>
+      <scope id="4301326094471184439" at="16,0,20,0" />
+      <scope id="4301326094471184440" at="21,0,28,0" />
+      <scope id="4301326094471184484" at="28,0,35,0" />
+      <scope id="4301326094471184532" at="35,0,42,0" />
+      <scope id="5753621687775830406" at="42,0,49,0" />
+      <unit id="4301326094471184439" at="11,0,50,0" name="de.thb.mps.tanni.Junit4_5.sandbox.RechnerTest" />
+    </file>
+  </root>
+</debug-info>
+
